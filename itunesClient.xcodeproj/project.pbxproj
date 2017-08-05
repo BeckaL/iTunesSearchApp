@@ -19,6 +19,8 @@
 		08B479E31F3625350042D98A /* Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B479E21F3625350042D98A /* Stub.swift */; };
 		08B479E51F362DC50042D98A /* SearchResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B479E41F362DC50042D98A /* SearchResultsController.swift */; };
 		08B479E81F36376B0042D98A /* SearchResultsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B479E71F36376B0042D98A /* SearchResultsDataSource.swift */; };
+		08B479EA1F3640A10042D98A /* AlbumListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B479E91F3640A10042D98A /* AlbumListController.swift */; };
+		08B479EC1F3641AD0042D98A /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B479EB1F3641AD0042D98A /* AlbumCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		08B479E21F3625350042D98A /* Stub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stub.swift; sourceTree = "<group>"; };
 		08B479E41F362DC50042D98A /* SearchResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsController.swift; sourceTree = "<group>"; };
 		08B479E71F36376B0042D98A /* SearchResultsDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsDataSource.swift; sourceTree = "<group>"; };
+		08B479E91F3640A10042D98A /* AlbumListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumListController.swift; sourceTree = "<group>"; };
+		08B479EB1F3641AD0042D98A /* AlbumCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 		0846742E1EF71B8500719604 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				08B479EB1F3641AD0042D98A /* AlbumCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -105,6 +110,7 @@
 			children = (
 				0846741D1EF71B4800719604 /* ViewController.swift */,
 				08B479E41F362DC50042D98A /* SearchResultsController.swift */,
+				08B479E91F3640A10042D98A /* AlbumListController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -194,9 +200,11 @@
 				0846741E1EF71B4800719604 /* ViewController.swift in Sources */,
 				0846741C1EF71B4800719604 /* AppDelegate.swift in Sources */,
 				08B479E51F362DC50042D98A /* SearchResultsController.swift in Sources */,
+				08B479EA1F3640A10042D98A /* AlbumListController.swift in Sources */,
 				08B479DD1F3619560042D98A /* Genre.swift in Sources */,
 				08B479DF1F361D2F0042D98A /* Album.swift in Sources */,
 				08B479E81F36376B0042D98A /* SearchResultsDataSource.swift in Sources */,
+				08B479EC1F3641AD0042D98A /* AlbumCell.swift in Sources */,
 				08B479E31F3625350042D98A /* Stub.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
