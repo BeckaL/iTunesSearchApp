@@ -21,6 +21,8 @@
 		08B479E81F36376B0042D98A /* SearchResultsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B479E71F36376B0042D98A /* SearchResultsDataSource.swift */; };
 		08B479EA1F3640A10042D98A /* AlbumListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B479E91F3640A10042D98A /* AlbumListController.swift */; };
 		08B479EC1F3641AD0042D98A /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B479EB1F3641AD0042D98A /* AlbumCell.swift */; };
+		08B479EE1F3645020042D98A /* AlbumListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B479ED1F3645020042D98A /* AlbumListDataSource.swift */; };
+		08B479F11F3647780042D98A /* AlbumCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B479F01F3647780042D98A /* AlbumCellViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		08B479E71F36376B0042D98A /* SearchResultsDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsDataSource.swift; sourceTree = "<group>"; };
 		08B479E91F3640A10042D98A /* AlbumListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumListController.swift; sourceTree = "<group>"; };
 		08B479EB1F3641AD0042D98A /* AlbumCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
+		08B479ED1F3645020042D98A /* AlbumListDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumListDataSource.swift; sourceTree = "<group>"; };
+		08B479F01F3647780042D98A /* AlbumCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,7 @@
 		0846741A1EF71B4800719604 /* itunesClient */ = {
 			isa = PBXGroup;
 			children = (
+				08B479EF1F3647600042D98A /* View Models */,
 				08B479E61F3637440042D98A /* Data Sources */,
 				0846742F1EF71B9300719604 /* Controllers */,
 				0846742E1EF71B8500719604 /* Views */,
@@ -119,8 +124,17 @@
 			isa = PBXGroup;
 			children = (
 				08B479E71F36376B0042D98A /* SearchResultsDataSource.swift */,
+				08B479ED1F3645020042D98A /* AlbumListDataSource.swift */,
 			);
 			name = "Data Sources";
+			sourceTree = "<group>";
+		};
+		08B479EF1F3647600042D98A /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				08B479F01F3647780042D98A /* AlbumCellViewModel.swift */,
+			);
+			name = "View Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,7 +212,9 @@
 				08B479E11F3621C20042D98A /* Song.swift in Sources */,
 				084674311EF71CA200719604 /* Artist.swift in Sources */,
 				0846741E1EF71B4800719604 /* ViewController.swift in Sources */,
+				08B479F11F3647780042D98A /* AlbumCellViewModel.swift in Sources */,
 				0846741C1EF71B4800719604 /* AppDelegate.swift in Sources */,
+				08B479EE1F3645020042D98A /* AlbumListDataSource.swift in Sources */,
 				08B479E51F362DC50042D98A /* SearchResultsController.swift in Sources */,
 				08B479EA1F3640A10042D98A /* AlbumListController.swift in Sources */,
 				08B479DD1F3619560042D98A /* Genre.swift in Sources */,
