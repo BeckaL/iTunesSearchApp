@@ -207,7 +207,7 @@
                             </constraints>
                         </view>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SongCell" id="e0S-IF-9du">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SongCell" id="e0S-IF-9du" customClass="SongCell" customModule="itunesClient" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="156" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="e0S-IF-9du" id="CVT-aS-1ry">
@@ -234,6 +234,10 @@
                                         <constraint firstItem="t4M-xt-vte" firstAttribute="centerY" secondItem="CVT-aS-1ry" secondAttribute="centerY" id="epV-Oe-dtv"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="songRuntimeLabel" destination="t4M-xt-vte" id="wPn-Fz-2O3"/>
+                                    <outlet property="songTitleLabel" destination="gwG-s1-5xL" id="xGN-aT-ca0"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
