@@ -11,8 +11,10 @@ Technologies
 Screenshots
 ===========
 
-![alt text](/Users/lekeabolade/Documents/iOSPractice/itunesClient/itunesSearchApp - homeScreen.png)
+![alt text](./itunesSearchApp - homeScreen.png)
 
-![alt text]()
+![alt text](itunesSearchApp - searchResults.png)
 
-![alt text]()
+![alt text](itunesSearchApp - albumsView.png)
+
+![alt text](itunesSearchApp - songsView.png)
