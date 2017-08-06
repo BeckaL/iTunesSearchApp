@@ -12,13 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let searchEndpoint = Itunes.search(term: "Kendrick Lamar", media: ItunesMedia.music(entity: MusicEntity.mix, attribute: MusicAttribute.mixTerm))
-        let lookupEndpoint = Itunes.lookup(id: 1234, entity: MusicEntity.musicArtist)
-        
-        print(lookupEndpoint.request)
-        print("********************")
-        print(searchEndpoint.request)
+    
         // Do any additional setup after loading the view, typically from a nib.
     }
 
