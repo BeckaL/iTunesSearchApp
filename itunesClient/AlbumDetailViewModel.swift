@@ -7,8 +7,10 @@
 //
 
 import Foundation
+import UIKit
 
 struct AlbumDetailViewModel {
+    let artwork: UIImage
     let title: String
     let releaseDate: String
     let genre: String
@@ -16,6 +18,7 @@ struct AlbumDetailViewModel {
 
 extension AlbumDetailViewModel {
     init(album: Album) {
+        self.artwork = album.artworkState == .downloaded ? album.artwork! : #imageLiteral(resourceName: "AlbumPlaceholder")
         self.title = album.censoredName
         self.genre = album.primaryGenre.name
         
