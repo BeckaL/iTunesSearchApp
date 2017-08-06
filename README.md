@@ -11,10 +11,10 @@ Technologies
 Screenshots
 ===========
 
-![alt text](./itunesSearchApp - homeScreen.png)
+![alt text](./homeScreen.png)
 
-![alt text](itunesSearchApp - searchResults.png)
+![alt text](./searchResults.png)
 
-![alt text](itunesSearchApp - albumsView.png)
+![alt text](./albumsView.png)
 
-![alt text](itunesSearchApp - songsView.png)
+![alt text](./songsView.png)
