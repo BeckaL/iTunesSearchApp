@@ -42,10 +42,12 @@ class SearchResultsController: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showAlbums" {
             if let indexPath = tableView.indexPathForSelectedRow {
-                 let artist = dataSource.artist(at: indexPath)
-                artist.albums = Stub.albums
+                let artist = dataSource.artist(at: indexPath)
                 let albumListController = segue.destination as! AlbumListController
-                albumListController.artist = artist
+                client.lookupArtist(withId: artist.id) { artist, error in
+                    albumListController.artist = artist
+                    albumListController.tableView.reloadData()
+                }
             }
         }
     }

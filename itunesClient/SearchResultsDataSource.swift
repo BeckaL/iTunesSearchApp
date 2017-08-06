@@ -44,8 +44,5 @@ class SearchResultsDataSource: NSObject, UITableViewDataSource {
     func artist(at indexPath: IndexPath) -> Artist {
         return data[indexPath.row]
     }
-    
-    
-    
 
 }
